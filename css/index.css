@@ -115,7 +115,7 @@ button{
 }
 
 button:active{
-	margin-top:0px;
+	margin-top:9px;
 	border: 0;
 }
 
@@ -131,4 +131,9 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.erro {
+	background-color: red;
+	color: white;
 }
